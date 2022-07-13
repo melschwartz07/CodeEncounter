@@ -1,4 +1,4 @@
-package com.codeup.CodeEncounter;
+package com.codeup.codeencounter;
 
 import com.codeup.codeencounter.UserDetailsLoader;
 import org.springframework.context.annotation.Bean;
