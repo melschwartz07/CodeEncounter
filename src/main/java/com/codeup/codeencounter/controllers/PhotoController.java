@@ -1,7 +1,7 @@
 package com.codeup.codeencounter.controllers;
 
-import com.codeup.CodeEncounter.Models.*;
-import com.codeup.CodeEncounter.Repositories.*;
+import com.codeup.codeencounter.models.*;
+import com.codeup.codeencounter.repositories.*;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;

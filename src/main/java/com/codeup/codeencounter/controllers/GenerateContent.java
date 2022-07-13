@@ -1,8 +1,11 @@
 package com.codeup.codeencounter.controllers;
 
 
+import com.codeup.codeencounter.models.*;
+import com.codeup.codeencounter.repositories.*;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,7 +18,7 @@ import java.util.List;
 
 @Controller
 public class GenerateContent {
-    private ArrayList<com.codeup.CodeEncounter.Models.Picture> testPictures1;
+    private ArrayList<com.codeup.codeencounter.models.Picture> testPictures1;
 
     @Autowired
     UserRepo userRepo;

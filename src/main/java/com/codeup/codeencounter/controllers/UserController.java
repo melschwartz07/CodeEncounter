@@ -1,9 +1,9 @@
 package com.codeup.codeencounter.controllers;
 
-import com.codeup.CodeEncounter.Repositories.*;
-import com.codeup.CodeEncounter.Models.*;
-import com.codeup.CodeEncounter.Services.*;
-import com.codeup.CodeEncounter.Models.User;
+import com.codeup.codeencounter.repositories.*;
+import com.codeup.codeencounter.models.*;
+import com.codeup.codeencounter.services.*;
+import com.codeup.codeencounter.models.User;
 import org.springframework.security.authentication.AnonymousAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;

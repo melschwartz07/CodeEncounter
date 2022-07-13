@@ -1,11 +1,11 @@
 package com.codeup.codeencounter.controllers;
 
-import com.codeup.CodeEncounter.Models.Gallery;
-import com.codeup.CodeEncounter.Models.Status;
-import com.codeup.CodeEncounter.Models.User;
-import com.codeup.CodeEncounter.Models.UserFriend;
-import com.codeup.CodeEncounter.Repositories.*;
-import com.codeup.CodeEncounter.Services.EmailService;
+import com.codeup.codeencounter.models.Gallery;
+import com.codeup.codeencounter.models.Status;
+import com.codeup.codeencounter.models.User;
+import com.codeup.codeencounter.models.UserFriend;
+import com.codeup.codeencounter.repositories.*;
+import com.codeup.codeencounter.services.EmailService;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

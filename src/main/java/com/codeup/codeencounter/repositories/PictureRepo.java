@@ -1,8 +1,8 @@
 package com.codeup.codeencounter.repositories;
 
-import com.codeup.CodeEncounter.Models.Gallery;
-import com.codeup.CodeEncounter.Models.Picture;
-import com.codeup.CodeEncounter.Models.User;
+import com.codeup.codeencounter.models.Gallery;
+import com.codeup.codeencounter.models.Picture;
+import com.codeup.codeencounter.models.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

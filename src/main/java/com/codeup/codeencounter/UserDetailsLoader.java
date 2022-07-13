@@ -1,8 +1,8 @@
-package com.codeup.CodeEncounter;
+package com.codeup.codeencounter;
 
-import com.codeup.CodeEncounter.Models.UserWithRoles;
-import com.codeup.CodeEncounter.Models.User;
-import com.codeup.CodeEncounter.Repositories.UserRepo;
+import com.codeup.codeencounter.models.UserWithRoles;
+import com.codeup.codeencounter.models.User;
+import com.codeup.codeencounter.repositories.UserRepo;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

@@ -1,6 +1,6 @@
 package com.codeup.codeencounter.models;
 
-import com.codeup.CodeEncounter.Models.User;
+import com.codeup.codeencounter.models.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.AuthorityUtils;
 import org.springframework.security.core.userdetails.UserDetails;
